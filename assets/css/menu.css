@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1024px){
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 6rem 2rem 6rem;
+    }
+
+    .menu__header {
+        display: flex;
+        align-items: center;
+        gap: .4rem;
+    }
+
+    .menu__title{
+        font-size: 18px;
+    }
+
+    .menu nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__list {
+        display: flex;
+        font-size: 16px;
+    }
+
+    .menu__list__item {
+        margin-right: 2rem;
+    }
+
+    .menu__list__item:hover {
+        text-decoration: underline;
+    }
+
+    .menu__list__item__contato:last-child {
+        font-weight: 800;
+    }
+}
+
+
+/*@media only screen and (min-width: 768px) {
+    .menu {
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    .menu__title {
+        font-size: 1.5rem;
+    }
+
+    .menu__list__item__contacto {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}*/
